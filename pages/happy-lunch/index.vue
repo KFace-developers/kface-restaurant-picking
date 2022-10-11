@@ -81,11 +81,11 @@ export default {
   methods: {
     picking() {
       // idx 3개 뽑기
-      const idx1 = Math.floor(Math.random() * 10)
-      const idx2 = Math.floor(Math.random() * 10) + 20
+      const idx1 = Math.floor(Math.random() * 12)
+      const idx2 = Math.floor(Math.random() * 12) + 12
       const idx3 =
-        Math.floor(Math.random() * (this.restaurantList.normal.length - 30)) +
-        30
+        Math.floor(Math.random() * (this.restaurantList.normal.length - 24)) +
+        24
 
       // 중복 체크
       // 식당 뽑기
