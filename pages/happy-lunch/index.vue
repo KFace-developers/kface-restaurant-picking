@@ -80,13 +80,13 @@ export default {
   mounted() {},
   methods: {
     picking() {
-      // let normalCnt = 0;
-      // let specialCnt = 0;
-
       // idx 3개 뽑기
-      const idx1 = Math.floor(Math.random() * this.restaurantList.normal.length)
-      const idx2 = Math.floor(Math.random() * this.restaurantList.normal.length)
-      const idx3 = Math.floor(Math.random() * this.restaurantList.normal.length)
+      const idx1 = Math.floor(Math.random() * 10)
+      const idx2 = Math.floor(Math.random() * 10) + 20
+      const idx3 =
+        Math.floor(
+          Math.random() * (this.restaurantList.normal.length - 30 + 1)
+        ) + 30
 
       // 중복 체크
       // 식당 뽑기
