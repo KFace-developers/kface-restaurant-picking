@@ -64,6 +64,7 @@ export default {
           { name: '한양곱창전골', type: '한식', distance: '10m' },
           { name: '타마시텐', type: '일식', distance: '7m' },
           { name: '가정초밥', type: '일식', distance: '15m' },
+          { name: '온정가', type: '한식', distance: '15m' },
         ],
         special: [
           { name: '다모리', type: '한식', distance: '10m' },
